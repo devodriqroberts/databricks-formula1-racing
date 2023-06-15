@@ -1,0 +1,9 @@
+{
+	"name": "droberts-databricks-course-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b01c251a-a64c-4435-9a09-043a161bb26d",
+		"tenantId": "34df61a2-051a-460d-8a28-27e609e67b97"
+	}
+}
