@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "droberts-databricks-course-adf"
+		},
+		"ls_formula1_storage_accountKey": {
+			"value": ""
+		},
+		"ls_databricks_course_ws2_properties_typeProperties_existingClusterId": {
+			"value": "0613-021405-yzkukxva"
+		},
+		"ls_formula1_storage_properties_typeProperties_url": {
+			"value": "https://drobertsformula1.dfs.core.windows.net/"
+		},
+		"tr_process_formula1_data_properties_pipeline_parameters_p_window_end_date": {
+			"value": "@trigger().outputs.windowEndTime"
+		}
+	}
+}
